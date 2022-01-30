@@ -1,0 +1,21 @@
+.home {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home_image {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  /* this mask-image is used to put uniform gradient from top to bottom in the image with the given rgba colors */
+  z-index: -1;
+  margin-bottom: -150px;
+  /* z-index and margin-bottom makes the product div(below div) comes over the banner( overlap ) from the bottom and it looks really beautiful. */
+}
+
+.home_row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
